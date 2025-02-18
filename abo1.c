@@ -8,3 +8,10 @@ int main(int argv,char **argc) {
 
 	strcpy(buf,argc[1]);
 }
+
+
+/*
+
+regular buffer overflow, just give 260 bytes of 'A' and then ret-address.
+
+*/
